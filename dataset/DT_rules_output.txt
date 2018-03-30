@@ -1,27 +1,27 @@
 if ( StarColor_white <= 0.5 ) {
 	if ( StarColor_blue <= 0.5 ) {
 		if ( StarColor_green <= 0.5 ) {
-			if ( StarSize_super giant <= 0.5 ) {
-				if ( StarColor_yellow <= 0.5 ) {
-					return [[896.  51.]]
+			if ( StarSize_dwarf <= 0.5 ) {
+				if ( StarSize_giant <= 0.5 ) {
+					return [[3.9 7.7]]
 				} else {
-					return [[203.  27.]]
+					return [[16.2  7. ]]
 				}
 			} else {
-				if ( DistFromStar <= 5846.5 ) {
-					return [[6. 8.]]
+				if ( StarColor_yellow <= 0.5 ) {
+					return [[255.3  29.4]]
 				} else {
-					return [[7. 3.]]
+					return [[58.2 18.2]]
 				}
 			}
 		} else {
 			if ( DistFromStar <= 434.0 ) {
-				return [[3. 7.]]
+				return [[0.9 4.9]]
 			} else {
-				if ( DistFromStar <= 4267.5 ) {
-					return [[180.  38.]]
+				if ( DistFromStar <= 1539.5 ) {
+					return [[15.3  4.2]]
 				} else {
-					return [[147.  56.]]
+					return [[82.8 61.6]]
 				}
 			}
 		}
@@ -29,69 +29,65 @@ if ( StarColor_white <= 0.5 ) {
 		if ( DistFromStar <= 1856.5 ) {
 			if ( DistFromStar <= 990.5 ) {
 				if ( DistFromStar <= 813.5 ) {
-					return [[13.  7.]]
+					return [[3.9 4.9]]
 				} else {
-					return [[8. 2.]]
+					return [[2.4 1.4]]
 				}
 			} else {
 				if ( DistFromStar <= 1273.5 ) {
-					return [[ 6. 12.]]
+					return [[1.8 8.4]]
 				} else {
-					return [[13. 12.]]
+					return [[3.9 8.4]]
 				}
 			}
 		} else {
 			if ( PlanetNumber <= 4.5 ) {
 				if ( PlanetNumber <= 2.5 ) {
-					return [[53. 27.]]
+					return [[15.9 18.9]]
 				} else {
-					return [[76. 13.]]
+					return [[22.8  9.1]]
 				}
 			} else {
 				if ( DistFromStar <= 5739.0 ) {
-					return [[28. 23.]]
+					return [[ 8.4 16.1]]
 				} else {
-					return [[50. 18.]]
+					return [[15.  12.6]]
 				}
 			}
 		}
 	}
 } else {
 	if ( isMoon <= 0.5 ) {
-		if ( DistFromStar <= 7413.5 ) {
+		if ( DistFromStar <= 7257.5 ) {
 			if ( PlanetNumber <= 2.5 ) {
 				if ( PlanetNumber <= 1.5 ) {
-					return [[22. 10.]]
+					return [[6.6 7. ]]
 				} else {
-					return [[14. 15.]]
+					return [[ 4.2 10.5]]
 				}
 			} else {
 				if ( DistFromStar <= 6105.5 ) {
-					return [[55. 16.]]
+					return [[16.5 11.2]]
 				} else {
-					return [[13. 10.]]
+					return [[3.6 6.3]]
 				}
 			}
 		} else {
-			return [[3. 7.]]
+			return [[1.2 5.6]]
 		}
 	} else {
-		if ( StarSize_dwarf <= 0.5 ) {
-			return [[ 4. 11.]]
-		} else {
-			if ( PlanetNumber <= 2.5 ) {
-				if ( DistFromStar <= 1703.5 ) {
-					return [[8. 6.]]
+		if ( DistFromStar <= 6309.0 ) {
+			if ( PlanetNumber <= 5.5 ) {
+				if ( PlanetNumber <= 3.5 ) {
+					return [[ 8.7 21. ]]
 				} else {
-					return [[ 2. 12.]]
+					return [[ 3.  13.3]]
 				}
 			} else {
-				if ( DistFromStar <= 4734.0 ) {
-					return [[16. 20.]]
-				} else {
-					return [[21. 14.]]
-				}
+				return [[2.4 2.1]]
 			}
+		} else {
+			return [[1.2 7.7]]
 		}
 	}
 }
