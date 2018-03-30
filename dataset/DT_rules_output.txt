@@ -1,0 +1,97 @@
+if ( StarColor_white <= 0.5 ) {
+	if ( StarColor_blue <= 0.5 ) {
+		if ( StarColor_green <= 0.5 ) {
+			if ( StarSize_super giant <= 0.5 ) {
+				if ( StarColor_yellow <= 0.5 ) {
+					return [[896.  51.]]
+				} else {
+					return [[203.  27.]]
+				}
+			} else {
+				if ( DistFromStar <= 5846.5 ) {
+					return [[6. 8.]]
+				} else {
+					return [[7. 3.]]
+				}
+			}
+		} else {
+			if ( DistFromStar <= 434.0 ) {
+				return [[3. 7.]]
+			} else {
+				if ( DistFromStar <= 4267.5 ) {
+					return [[180.  38.]]
+				} else {
+					return [[147.  56.]]
+				}
+			}
+		}
+	} else {
+		if ( DistFromStar <= 1856.5 ) {
+			if ( DistFromStar <= 990.5 ) {
+				if ( DistFromStar <= 813.5 ) {
+					return [[13.  7.]]
+				} else {
+					return [[8. 2.]]
+				}
+			} else {
+				if ( DistFromStar <= 1273.5 ) {
+					return [[ 6. 12.]]
+				} else {
+					return [[13. 12.]]
+				}
+			}
+		} else {
+			if ( PlanetNumber <= 4.5 ) {
+				if ( PlanetNumber <= 2.5 ) {
+					return [[53. 27.]]
+				} else {
+					return [[76. 13.]]
+				}
+			} else {
+				if ( DistFromStar <= 5739.0 ) {
+					return [[28. 23.]]
+				} else {
+					return [[50. 18.]]
+				}
+			}
+		}
+	}
+} else {
+	if ( isMoon <= 0.5 ) {
+		if ( DistFromStar <= 7413.5 ) {
+			if ( PlanetNumber <= 2.5 ) {
+				if ( PlanetNumber <= 1.5 ) {
+					return [[22. 10.]]
+				} else {
+					return [[14. 15.]]
+				}
+			} else {
+				if ( DistFromStar <= 6105.5 ) {
+					return [[55. 16.]]
+				} else {
+					return [[13. 10.]]
+				}
+			}
+		} else {
+			return [[3. 7.]]
+		}
+	} else {
+		if ( StarSize_dwarf <= 0.5 ) {
+			return [[ 4. 11.]]
+		} else {
+			if ( PlanetNumber <= 2.5 ) {
+				if ( DistFromStar <= 1703.5 ) {
+					return [[8. 6.]]
+				} else {
+					return [[ 2. 12.]]
+				}
+			} else {
+				if ( DistFromStar <= 4734.0 ) {
+					return [[16. 20.]]
+				} else {
+					return [[21. 14.]]
+				}
+			}
+		}
+	}
+}
